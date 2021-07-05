@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Component } from 'react';
+import React, { Component } from 'react';
 
 //importing the cardList divcomponent we created 
 import { CardList} from "./components/card-list/card-list.components";
