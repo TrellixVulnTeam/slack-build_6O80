@@ -12,4 +12,27 @@
 /*MIXINS*/
 
 
+
+
 /*IMPORTS*/
+
+@import "./global";
+@import "../components/header/header.styles";
+@import "../components/sidebar/sidebar.styles";
+@import "../components/sidebarOption/sbarOption.styles";
+@import "../components/mail_/mail.styles";
+@import "../components/emailList_/emailList.styles";
+@import "../components/section/section.styles";
+@import "../components/emailRow/emailRowBlock.styles";
+@import "../components/sendmail/sendMail.style";
+@import "../pages/loginPage/loginPage.style";
+
+.app{
+    height: 100vh;
+}
+
+.appBody{
+    
+    display: flex;
+    height: 100vh;
+}
