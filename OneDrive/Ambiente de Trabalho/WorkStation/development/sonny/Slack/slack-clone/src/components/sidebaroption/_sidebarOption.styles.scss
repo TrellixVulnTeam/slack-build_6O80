@@ -1,0 +1,35 @@
+
+
+.sideBarOption_container{
+    color: white;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    padding-left: 2px;
+    cursor: pointer;
+
+    h3{
+
+        font-weight: 500;
+    }
+
+    span{
+        padding: 15px;
+    }
+
+
+    &:hover{
+
+        opacity: 0.9;
+        background-color: #340e36;
+    }
+}
+
+.sideBarOption_channel {
+
+    h3{
+
+        padding: 10px 0;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+@import "./globals";
+@import "../components/header/header.styles";
+@import "../components/sidebar/sidebar.styles";
+@import "../components/sidebaroption/sidebarOption.styles";
+@import "../components/chat/chat.styles";
+@import "../components/chatInput/chatInput.styles";
+@import "../components/chatMessage/chatMessage.styles";
+@import "../pages/login/LoginPage.styles";
+
+
+.loadingContainer{
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.loadingContainer_contents{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+
+    img{
+        height: 100px;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+}

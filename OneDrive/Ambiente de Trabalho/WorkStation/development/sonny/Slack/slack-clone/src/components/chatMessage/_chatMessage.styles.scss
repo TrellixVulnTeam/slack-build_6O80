@@ -1,0 +1,26 @@
+
+
+.messageContainer {
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+    img{
+        height: 50px;
+        border-radius: 8px;
+    }
+}
+
+.messageInfo{
+
+    padding: 10px;
+
+    span{
+
+        color: gray;
+        font-size: 10px;
+        font-weight: 300;
+        margin-left: 4px;
+    }
+}
